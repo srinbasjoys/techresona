@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm text-slate-400">
-          <p>&copy; {new Date().getFullYear()} TechResona Pvt Ltd. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TechResona Pvt Ltd. All rights reserved. | <Link to="/terms" className="hover:text-teal-500 transition-colors">Terms</Link> | <Link to="/privacy" className="hover:text-teal-500 transition-colors">Privacy</Link></p>
         </div>
       </div>
     </footer>
