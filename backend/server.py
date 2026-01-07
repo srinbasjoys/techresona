@@ -364,6 +364,8 @@ async def generate_sitemap():
         {"loc": "/services", "priority": "0.9"},
         {"loc": "/contact", "priority": "0.7"},
         {"loc": "/blog", "priority": "0.8"},
+        {"loc": "/terms", "priority": "0.5"},
+        {"loc": "/privacy", "priority": "0.5"},
     ]
     
     for page in static_pages:
@@ -433,6 +435,8 @@ async def sitemap_xml():
         {"loc": "/services", "priority": "0.9"},
         {"loc": "/contact", "priority": "0.7"},
         {"loc": "/blog", "priority": "0.8"},
+        {"loc": "/terms", "priority": "0.5"},
+        {"loc": "/privacy", "priority": "0.5"},
     ]
     
     for page in static_pages:
