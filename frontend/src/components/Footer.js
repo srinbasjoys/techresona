@@ -46,6 +46,8 @@ const Footer = () => {
               <li><Link to="/about" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-about">About Us</Link></li>
               <li><Link to="/blog" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-blog">Blog</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-contact">Contact</Link></li>
+              <li><Link to="/terms" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-terms">Terms & Conditions</Link></li>
+              <li><Link to="/privacy" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-privacy">Privacy Policy</Link></li>
               <li><Link to="/admin/login" className="text-slate-400 hover:text-teal-500 transition-colors" data-testid="footer-admin">Admin Portal</Link></li>
             </ul>
           </div>
