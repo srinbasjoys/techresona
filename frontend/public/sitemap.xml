@@ -26,6 +26,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://codebase-refresh-14.preview.emergentagent.com/terms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://codebase-refresh-14.preview.emergentagent.com/privacy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://codebase-refresh-14.preview.emergentagent.com/blog/cloud-migration-strategy-india-2025</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
