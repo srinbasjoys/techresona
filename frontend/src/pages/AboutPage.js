@@ -21,7 +21,8 @@ const AboutPage = () => {
       <SEOHead 
         title={seoData?.title || "About TechResona - Leading Cloud Solutions Provider in India"}
         description={seoData?.description || "Learn about TechResona's mission to empower businesses with secure, scalable cloud solutions. Trusted partner for Azure, AWS, and managed services."}
-        keywords={seoData?.keywords || "about techresona, cloud provider india, IT services company, azure partner, aws partner"}
+        keywords={seoData?.keywords || "about techresona, cloud provider india, IT services company, azure partner, aws partner, microsoft azure consulting small business"}
+        canonical="https://techresona.com/about"
         jsonLd={seoData?.json_ld}
       />
       <div className="min-h-screen">
