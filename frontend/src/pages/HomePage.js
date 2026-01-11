@@ -35,7 +35,7 @@ const HomePage = () => {
       "addressRegion": "India"
     },
     "sameAs": [
-      "https://www.linkedin.com/company/techresona",
+      "https://www.linkedin.com/company/techresona-services",
       "https://twitter.com/techresona",
       "https://www.facebook.com/techresona"
     ],
