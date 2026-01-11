@@ -79,6 +79,11 @@ function App() {
               <KeywordTracker />
             </ProtectedRoute>
           } />
+          <Route path="/admin/logo" element={
+            <ProtectedRoute>
+              <LogoManager />
+            </ProtectedRoute>
+          } />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
