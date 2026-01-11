@@ -46,6 +46,7 @@ const AdminDashboard = () => {
     { icon: <Settings size={20} />, label: 'SEO Manager', path: '/admin/seo', testId: 'nav-seo' },
     { icon: <FileText size={20} />, label: 'Blog Manager', path: '/admin/blogs', testId: 'nav-blogs' },
     { icon: <TrendingUp size={20} />, label: 'Keyword Tracker', path: '/admin/keywords', testId: 'nav-keywords' },
+    { icon: <Image size={20} />, label: 'Logo Manager', path: '/admin/logo', testId: 'nav-logo' },
   ];
 
   return (
