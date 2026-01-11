@@ -78,7 +78,7 @@ const BlogDetailPage = () => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "TechResona",
+      "name": "TechResona Pvt Ltd",
       "logo": {
         "@type": "ImageObject",
         "url": "https://techresona.com/logo.png"
