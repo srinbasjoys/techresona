@@ -23,13 +23,14 @@ db = client[db_name]
 SEO_SETTINGS = {
     "home": {
         "page": "home",
-        "title": "TechResona - Cloud Solutions & Managed Services | Azure, AWS, Office 365",
+        "title": "TechResona Pvt Ltd - Cloud Solutions & Managed Services | Azure, AWS, Office 365",
         "description": "Leading IT services provider in India offering Azure, AWS, Office 365, and Managed Services. Secure, scalable cloud solutions for SMBs and enterprises.",
         "keywords": "azure cloud solutions for small business, aws cloud solutions for small business, office 365 licensing for small business, managed services, power bi consulting services",
         "json_ld": {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "TechResona",
+            "name": "TechResona Pvt Ltd",
+            "alternateName": "TechResona",
             "description": "Leading IT services provider in India offering Azure, AWS, Office 365, and Managed Services.",
             "url": "https://techresona.com",
             "logo": "https://techresona.com/logo.png",
