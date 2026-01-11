@@ -16,6 +16,7 @@ import AdminDashboard from './pages/admin/AdminDashboard';
 import SEOManager from './pages/admin/SEOManager';
 import BlogManager from './pages/admin/BlogManager';
 import KeywordTracker from './pages/admin/KeywordTracker';
+import LogoManager from './pages/admin/LogoManager';
 
 const ProtectedRoute = ({ children }) => {
   const token = localStorage.getItem('techresona_admin_token');
