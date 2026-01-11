@@ -134,6 +134,24 @@ class KeywordCreate(BaseModel):
     search_volume: Optional[int] = None
     difficulty: Optional[str] = None
 
+class ContactSubmission(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str
+    email: EmailStr
+    company: Optional[str] = None
+    phone: Optional[str] = None
+    message: str
+    submitted_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    status: str = "new"  # new, contacted, closed
+
+class ContactSubmissionCreate(BaseModel):
+    name: str
+    email: EmailStr
+    company: Optional[str] = None
+    phone: Optional[str] = None
+    message: str
+
 class AnalyticsData(BaseModel):
     total_pages: int
     total_blogs: int
