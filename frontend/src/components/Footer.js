@@ -55,11 +55,27 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-2 text-slate-400">
                 <Mail size={16} />
-                <span data-testid="footer-email">info@techresona.com</span>
+                <a href="mailto:info@techresona.com" className="hover:text-teal-500 transition-colors" data-testid="footer-email">
+                  info@techresona.com
+                </a>
               </li>
               <li className="flex items-center space-x-2 text-slate-400">
                 <Phone size={16} />
-                <span data-testid="footer-phone">+91-XXXXXXXXXX</span>
+                <a href="tel:+917517402788" className="hover:text-teal-500 transition-colors" data-testid="footer-phone">
+                  +91 7517402788
+                </a>
+              </li>
+              <li className="flex items-center space-x-2 text-slate-400">
+                <MessageCircle size={16} />
+                <a 
+                  href="https://wa.me/917517402788" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-teal-500 transition-colors" 
+                  data-testid="footer-whatsapp"
+                >
+                  WhatsApp
+                </a>
               </li>
               <li className="flex items-center space-x-2 text-slate-400">
                 <MapPin size={16} />
