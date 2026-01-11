@@ -30,13 +30,13 @@ const Footer = () => {
               Empowering businesses with secure and scalable cloud solutions. Your trusted partner for digital transformation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="LinkedIn" data-testid="social-linkedin">
+              <a href="https://www.linkedin.com/company/techresona-services" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="LinkedIn" data-testid="social-linkedin">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="Twitter" data-testid="social-twitter">
+              <a href="https://twitter.com/techresona" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="Twitter" data-testid="social-twitter">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="Facebook" data-testid="social-facebook">
+              <a href="https://www.facebook.com/techresona" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-teal-500 transition-colors" aria-label="Facebook" data-testid="social-facebook">
                 <Facebook size={20} />
               </a>
             </div>
