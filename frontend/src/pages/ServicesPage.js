@@ -96,7 +96,8 @@ const ServicesPage = () => {
       <SEOHead 
         title={seoData?.title || "TechResona Services - Azure, AWS, Office 365, SEO & Web Development"}
         description={seoData?.description || "Explore TechResona's comprehensive services: Azure Cloud, AWS Solutions, Office 365, Managed Services, Website Development, and SEO optimization for businesses in India and globally."}
-        keywords={seoData?.keywords || "azure cloud services, aws solutions, office 365, managed services india, website development, SEO services, cloud migration"}
+        keywords={seoData?.keywords || "azure cloud solutions for small business, aws cloud solutions for small business, office 365 licensing for small business, managed services india, small business website development, power bi consulting services"}
+        canonical="https://techresona.com/services"
         jsonLd={seoData?.json_ld}
       />
       <div className="min-h-screen">
