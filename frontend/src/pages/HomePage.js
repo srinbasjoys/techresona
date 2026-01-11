@@ -127,7 +127,7 @@ const HomePage = () => {
   return (
     <>
       <SEOHead 
-        title={seoData?.title || "TechResona - Cloud Solutions & Managed Services | Azure, AWS, Office 365"}
+        title={seoData?.title || "TechResona Pvt Ltd - Cloud Solutions & Managed Services | Azure, AWS, Office 365"}
         description={seoData?.description || "Leading IT services provider in India offering Azure, AWS, Office 365, and Managed Services. Secure, scalable cloud solutions for SMBs and enterprises."}
         keywords={seoData?.keywords || "azure cloud solutions for small business, aws cloud solutions for small business, office 365 licensing for small business, managed services, IT services india"}
         canonical="https://techresona.com/"
