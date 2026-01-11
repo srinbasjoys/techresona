@@ -146,13 +146,11 @@ const BlogDetailPage = () => {
                 {blog.title}
               </h1>
 
-              <div className="prose prose-lg max-w-none" data-testid="blog-detail-content">
-                {blog.content.split('\n\n').map((paragraph, idx) => (
-                  <p key={idx} className="text-lg text-slate-700 leading-relaxed mb-6">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
+              <div 
+                className="prose prose-lg max-w-none blog-content" 
+                data-testid="blog-detail-content"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
 
               <div className="mt-12 pt-8 border-t border-slate-200">
                 <div className="flex flex-wrap gap-2">
