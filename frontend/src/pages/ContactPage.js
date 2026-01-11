@@ -82,7 +82,9 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-1 font-heading">Email</h3>
-                      <p className="text-slate-600">info@techresona.com</p>
+                      <a href="mailto:info@techresona.com" className="text-slate-600 hover:text-indigo-700 transition-colors">
+                        info@techresona.com
+                      </a>
                     </div>
                   </div>
                   
@@ -92,7 +94,26 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-1 font-heading">Phone</h3>
-                      <p className="text-slate-600">+91-XXXXXXXXXX</p>
+                      <a href="tel:+917517402788" className="text-slate-600 hover:text-teal-600 transition-colors">
+                        +91 7517402788
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4" data-testid="contact-whatsapp">
+                    <div className="flex-shrink-0 w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center">
+                      <MessageCircle size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900 mb-1 font-heading">WhatsApp</h3>
+                      <a 
+                        href="https://wa.me/917517402788" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-slate-600 hover:text-green-600 transition-colors"
+                      >
+                        +91 7517402788
+                      </a>
                     </div>
                   </div>
                   
