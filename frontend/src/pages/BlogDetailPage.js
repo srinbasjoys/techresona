@@ -67,15 +67,31 @@ const BlogDetailPage = () => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "headline": blog.title,
     "description": blog.excerpt,
+    "image": blog.featured_image || "https://techresona.com/default-blog-image.jpg",
     "author": {
       "@type": "Organization",
-      "name": blog.author
+      "name": blog.author || "TechResona Team",
+      "url": "https://techresona.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TechResona",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://techresona.com/logo.png"
+      }
     },
     "datePublished": blog.created_at,
-    "dateModified": blog.updated_at
+    "dateModified": blog.updated_at,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://techresona.com/blog/${blog.slug}`
+    },
+    "keywords": blog.keywords || "",
+    "articleBody": blog.content
   };
 
   return (
