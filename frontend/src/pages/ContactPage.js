@@ -193,6 +193,21 @@ const ContactPage = () => {
                     </div>
 
                     <div>
+                      <label htmlFor="phone" className="block text-sm font-semibold text-slate-700 mb-2">
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        value={formData.phone}
+                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                        className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all"
+                        placeholder="+91 XXXXXXXXXX"
+                        data-testid="contact-phone-input"
+                      />
+                    </div>
+
+                    <div>
                       <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-2">
                         Message *
                       </label>
